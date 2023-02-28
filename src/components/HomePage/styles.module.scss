@@ -1,0 +1,42 @@
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+  .left-info {
+    >.class-title {
+      color: #767A7F;
+      margin-bottom: 8px;
+    }
+    >h1.user-name {
+      color: #141415;
+      font-weight: 700;
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+    >.description {
+      color: #767A7F;
+    }
+  }
+}
+
+.checkin-wrapper {
+  text-align: center;
+  background: #F4F5F6;
+  border-radius: 16px;
+  padding: 12px;
+  >.checkin-time {
+    color: #141415;
+    font-weight: 700;
+    font-size: 64px;
+    margin: 40px 0px;
+  }
+  >.checkin-btn {
+    margin-bottom: 8px;
+  }
+}
+
+.events-wrapper {
+  display: flex;
+  margin-top: 16px;
+  justify-content: space-between;
+}
